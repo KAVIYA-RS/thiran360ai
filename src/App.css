@@ -1,0 +1,51 @@
+/* App.css */
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-header {
+  text-align: center;
+  color: rgb(27, 26, 26);
+  z-index: 1;
+}
+
+.App-header h1 {
+  font-size: 8rem;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-group .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+.custom-modal .modal-dialog {
+  max-width: 100%; 
+}
+
+.custom-modal .modal-body {
+  max-height: 100vh; 
+  overflow-y: auto;
+}
+.modal-footer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#acceptTermsCheckbox {
+  margin-right: auto; /* Adjust the checkbox alignment */
+}
